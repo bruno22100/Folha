@@ -46,6 +46,16 @@ public class Empregado
 			this.comissao = aux;
 		}
 	}
+	
+	public void setId(int num)
+	{
+		this.id = num;
+	}
+	
+	public int getId()
+	{
+		return this.id;
+	}
 
 	public void setNome(String nome)
 	{
