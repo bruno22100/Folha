@@ -16,6 +16,10 @@ public class Empregado
 	int agendaPagamentoID; // As agendas default são 0: semanal, 1: bi-semanal, 2: mensal
 	String sindicatoID;
 	boolean ativo;
+	
+	Ponto[] ponto = new Ponto[365];
+	int pontoIndex = 0;
+	int pontoUltimoPagamento = 0;
 
 }
 
