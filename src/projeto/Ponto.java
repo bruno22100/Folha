@@ -5,5 +5,5 @@ public class Ponto {
 	Date data;
     int horas;
     boolean ativo;
-    int empregadoId;
+    int empregadoID;
 }

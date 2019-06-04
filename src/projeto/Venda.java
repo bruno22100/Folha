@@ -5,6 +5,6 @@ public class Venda {
 	Date data;
     double valor;
     boolean ativo;
-    int empregadoId;
+    int empregadoID;
 
 }
