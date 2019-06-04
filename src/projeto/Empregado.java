@@ -13,13 +13,20 @@ public class Empregado
 	boolean sindicato;
 	double taxaSindicato;
 	Date proximoPagamento;
-	int agendaPagamentoID; // As agendas default são 0: semanal, 1: bi-semanal, 2: mensal
+	int agenda_Pagamento_ID; // As agendas default são 0: semanal, 1: bi-semanal, 2: mensal
 	String sindicatoID;
 	boolean ativo;
 	
 	Ponto[] ponto = new Ponto[365];
 	int pontoIndex = 0;
-	int pontoUltimoPagamento = 0;
+	int ponto_Ultimo_Pagamento = 0;
+	
+	Venda[] vendas = new Venda[365];
+	int vendas_Index = 0;
+	int venda_Ultimo_Pagamento = 0;
+	
+	Taxa[] taxas = new Taxa[24];
+	int taxasIndex = 0;
 
 }
 
